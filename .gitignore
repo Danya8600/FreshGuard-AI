@@ -1,0 +1,34 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.log
+*.egg-info/
+*.pyo
+
+# --- Virtualenv ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- IDE ---
+.idea/
+.vscode/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Data / outputs ---
+dataset/
+out_freshguard/
+real_photo/
+
+# --- Models ---
+*.pt
+*.pth
+*.onnx
+*.ckpt
+
+# --- Jupyter ---
+.ipynb_checkpoints/
